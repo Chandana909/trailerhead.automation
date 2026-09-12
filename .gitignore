@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Playwright
+playwright-report/
+
+# Agent artefacts
+logs/
+memory.db
+failed_session_*.json
+session_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Misc
+.DS_Store
+Thumbs.db
